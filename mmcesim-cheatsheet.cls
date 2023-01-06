@@ -78,7 +78,7 @@
 \tl_if_empty:NF { \l__mmcesim_cheatsheet_font_tl }
   { \RequirePackage { \tl_use:N \l__mmcesim_cheatsheet_font_tl } }
 \RequirePackage { fontspec }
-\setmonofont{ inconsolata }
+\setmonofont [ Scale=MatchLowercase ] { inconsolata }
 
 %% Figure Environemts
 \RequirePackage { graphicx }
